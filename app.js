@@ -1,5 +1,5 @@
 let = listaDeNumerosSorteados = [];
-let limiteNumero = 50;
+let limiteNumero = 100;
 let numeroSecreto = gerarNumero();
 // o RETURN vai retornar o valor gerado e armazenar na variavel numeroSecreto
 
@@ -19,7 +19,7 @@ function exibirTexto(tag, texto) {
 }
 
 function exibirMsg() {
-  exibirTexto("h1", "Jogo do Número secreto");
+  exibirTexto("h1", "Jogo do Número Secreto");
   exibirTexto("p", `Escolha um número entre 1 e ${limiteNumero}`);
 }
 
