@@ -1,5 +1,5 @@
 let = listaDeNumerosSorteados = [];
-let limiteNumero = 100;
+let limiteNumero = 50;
 let numeroSecreto = gerarNumero();
 // o RETURN vai retornar o valor gerado e armazenar na variavel numeroSecreto
 
