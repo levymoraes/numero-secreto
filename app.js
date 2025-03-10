@@ -42,11 +42,9 @@ function verificarChute() {
     document.getElementById("reiniciar").removeAttribute("disabled");
     //id = identificador unico
   } else {
-    if (chute > numeroSecreto) {
-      exibirTexto("p", `O número secreto é menor que ${chute}.`);
-    } else {
-      exibirTexto("p", `O número secreto é maior que ${chute}.`);
-    }
+    chute > numeroSecreto
+      ? exibirTexto("p", `O número secreto é menor que ${chute}.`)
+      : exibirTexto("p", `O número secreto é maior que ${chute}.`);
     tentativas++;
     limparCampo();
   }
